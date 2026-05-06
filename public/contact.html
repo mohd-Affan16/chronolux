@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concierge | ChronoLux</title>
+  <link rel="stylesheet" href="output.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body class="bg-midnight text-purewhite font-sans antialiased overflow-x-hidden">
+
+  <!-- Header -->
+  <header class="fixed w-full top-0 z-50 glass transition-all duration-300 py-4">
+    <div class="container mx-auto px-6 flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-serif tracking-widest text-gold font-semibold uppercase">ChronoLux</a>
+      <nav class="space-x-8 hidden md:flex text-sm tracking-widest">
+        <a href="index.html" class="hover:text-gold transition-colors">Boutique</a>
+        <a href="about.html" class="hover:text-gold transition-colors">Maison</a>
+        <a href="contact.html" class="text-gold">Concierge</a>
+      </nav>
+      <button id="cartToggle" class="relative hover:text-gold transition-colors">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
+        <span id="cartBadge" class="absolute -top-2 -right-2 bg-gold text-midnight text-xs rounded-full h-5 w-5 flex items-center justify-center opacity-0 transition-opacity">0</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <section class="pt-32 pb-24 container mx-auto px-6 max-w-2xl fade-in">
+    <h1 class="text-5xl font-serif text-gold mb-6 italic text-center">Private Concierge</h1>
+    <p class="text-center text-gray-400 mb-12">Inquire about bespoke commissions or rare vintage acquisitions.</p>
+    
+    <form id="contactForm" class="space-y-6 bg-obsidian p-8 border border-gold/20">
+      <div>
+        <label class="block text-sm text-gold tracking-widest mb-2 uppercase">Name</label>
+        <input type="text" name="name" required class="w-full bg-midnight border border-gold/30 p-3 text-white focus:outline-none focus:border-gold transition-colors">
+      </div>
+      <div>
+        <label class="block text-sm text-gold tracking-widest mb-2 uppercase">Email</label>
+        <input type="email" name="email" required class="w-full bg-midnight border border-gold/30 p-3 text-white focus:outline-none focus:border-gold transition-colors">
+      </div>
+      <div>
+        <label class="block text-sm text-gold tracking-widest mb-2 uppercase">Inquiry</label>
+        <textarea name="message" required rows="5" class="w-full bg-midnight border border-gold/30 p-3 text-white focus:outline-none focus:border-gold transition-colors"></textarea>
+      </div>
+      <button type="submit" class="w-full border border-gold text-gold py-4 uppercase tracking-widest hover:bg-gold hover:text-midnight transition-colors duration-300">Send Inquiry</button>
+    </form>
+  </section>
+
+  <!-- Slide-out Cart Drawer -->
+  <div id="cartDrawer" class="fixed top-0 right-0 h-full w-full md:w-96 bg-obsidian border-l border-gold shadow-2xl transform translate-x-full transition-transform duration-300 z-50 flex flex-col">
+    <div class="p-6 border-b border-gold/30 flex justify-between items-center">
+      <h3 class="font-serif text-xl text-gold">Your Selection</h3>
+      <button id="closeCart" class="text-gray-400 hover:text-white">&times;</button>
+    </div>
+    <div id="cartItems" class="flex-1 overflow-y-auto p-6 space-y-6"></div>
+    <div class="p-6 border-t border-gold/30 bg-midnight">
+      <div class="flex justify-between mb-4">
+        <span class="text-gray-400">Total</span>
+        <span id="cartTotal" class="text-gold font-serif text-xl">₹0</span>
+      </div>
+      <a href="checkout.html" class="block text-center w-full bg-gold text-midnight py-3 uppercase tracking-widest font-semibold hover:bg-yellow-600 transition-colors">Acquire</a>
+    </div>
+  </div>
+  <div id="cartOverlay" class="fixed inset-0 bg-black/50 z-40 hidden opacity-0 transition-opacity"></div>
+
+  <footer class="border-t border-gold/20 py-12 text-center text-sm text-gray-500 mt-12 bg-midnight">
+    &copy; 2026 ChronoLux Horology. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

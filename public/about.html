@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maison | ChronoLux</title>
+  <link rel="stylesheet" href="output.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body class="bg-midnight text-purewhite font-sans antialiased overflow-x-hidden">
+
+  <!-- Header -->
+  <header class="fixed w-full top-0 z-50 glass transition-all duration-300 py-4">
+    <div class="container mx-auto px-6 flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-serif tracking-widest text-gold font-semibold uppercase">ChronoLux</a>
+      <nav class="space-x-8 hidden md:flex text-sm tracking-widest">
+        <a href="index.html" class="hover:text-gold transition-colors">Boutique</a>
+        <a href="about.html" class="text-gold">Maison</a>
+        <a href="contact.html" class="hover:text-gold transition-colors">Concierge</a>
+      </nav>
+      <button id="cartToggle" class="relative hover:text-gold transition-colors">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path></svg>
+        <span id="cartBadge" class="absolute -top-2 -right-2 bg-gold text-midnight text-xs rounded-full h-5 w-5 flex items-center justify-center opacity-0 transition-opacity">0</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <section class="pt-32 pb-24 container mx-auto px-6 max-w-4xl fade-in">
+    <h1 class="text-5xl font-serif text-gold mb-12 italic text-center">The Maison</h1>
+    
+    <div class="space-y-12 text-gray-300 font-light leading-relaxed">
+      <p class="text-xl">Founded in the heart of the Swiss Alps in 1892, ChronoLux represents the absolute pinnacle of haute horlogerie. We do not simply tell time; we encapsulate it within masterpieces of micro-engineering.</p>
+      
+      <div class="h-96 w-full relative my-12 overflow-hidden border border-gold/20">
+        <img src="https://images.unsplash.com/photo-1548690312-e3b507d8c110?auto=format&fit=crop&q=80&w=1200" alt="Watchmaking" class="object-cover w-full h-full">
+      </div>
+
+      <h2 class="text-3xl font-serif text-gold">The Philosophy</h2>
+      <p>Every timepiece is hand-assembled by a single master watchmaker over the course of six months. We utilize only the rarest materials: aerospace-grade titanium, 18-karat brushed rose gold, and meteorites forged in the birth of the solar system.</p>
+      
+      <p>Our commitment is to precision, longevity, and the subtle art of mechanical perfection.</p>
+    </div>
+  </section>
+
+  <!-- Slide-out Cart Drawer -->
+  <div id="cartDrawer" class="fixed top-0 right-0 h-full w-full md:w-96 bg-obsidian border-l border-gold shadow-2xl transform translate-x-full transition-transform duration-300 z-50 flex flex-col">
+    <div class="p-6 border-b border-gold/30 flex justify-between items-center">
+      <h3 class="font-serif text-xl text-gold">Your Selection</h3>
+      <button id="closeCart" class="text-gray-400 hover:text-white">&times;</button>
+    </div>
+    <div id="cartItems" class="flex-1 overflow-y-auto p-6 space-y-6"></div>
+    <div class="p-6 border-t border-gold/30 bg-midnight">
+      <div class="flex justify-between mb-4">
+        <span class="text-gray-400">Total</span>
+        <span id="cartTotal" class="text-gold font-serif text-xl">₹0</span>
+      </div>
+      <a href="checkout.html" class="block text-center w-full bg-gold text-midnight py-3 uppercase tracking-widest font-semibold hover:bg-yellow-600 transition-colors">Acquire</a>
+    </div>
+  </div>
+  <div id="cartOverlay" class="fixed inset-0 bg-black/50 z-40 hidden opacity-0 transition-opacity"></div>
+
+  <footer class="border-t border-gold/20 py-12 text-center text-sm text-gray-500 mt-12 bg-midnight">
+    &copy; 2026 ChronoLux Horology. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
