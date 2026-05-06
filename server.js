@@ -31,7 +31,7 @@ const products = [
     id: 3,
     name: "Heritage Perpetual Calendar",
     price: 85000,
-    image: "https://images.unsplash.com/photo-1508656986676-e1e55d648ea9?auto=format&fit=crop&q=80&w=800",
+    image: "/images/heritage_calendar.png",
     description: "Tracks time, day, month, and leap year accurately until 2100 without adjustment."
   },
   {
