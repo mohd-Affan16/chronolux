@@ -7,16 +7,18 @@ A premium watch e-commerce website built during the **Google Build with AI Works
 ---
 
 ## Screenshots
+## Screenshots
 
-<div style="display: flex; gap: 12px; overflow-x: auto; padding: 10px 0; scrollbar-width: thin;">
-  <img width="320" height="320" alt="Screenshot 2026-05-06 232700" src="https://github.com/user-attachments/assets/4f8efcfe-cabc-4e57-bac7-4bf8d13421f4" />
-  <img width="320" height="320" alt="Screenshot 2026-05-06 232726" src="https://github.com/user-attachments/assets/907467ae-66da-4287-a8aa-cdc6a790dee6" />
-  <img width="320" height="320" alt="Screenshot 2026-05-06 232833" src="https://github.com/user-attachments/assets/8c665b64-363f-4c23-9383-b42437b4867d" />
-  <img width="320" height="320" alt="Screenshot 2026-05-06 232909" src="https://github.com/user-attachments/assets/bc9c947c-9161-4b6b-89a7-e3b18ebb4349" />
-  <img width="320" height="320" alt="Screenshot 2026-05-06 232756" src="https://github.com/user-attachments/assets/57e1dd2a-6342-46e2-960b-18d3574da234" />
+**Swipe left/right or scroll horizontally to view →**
 
-
+<div style="display: flex; gap: 15px; overflow-x: auto; padding: 10px 0; scrollbar-width: thin; -webkit-overflow-scrolling: touch;">
+  <img width="340" src="https://github.com/user-attachments/assets/4f8efcfe-cabc-4e57-bac7-4bf8d13421f4" alt="Homepage">
+  <img width="340" src="https://github.com/user-attachments/assets/907467ae-66da-4287-a8aa-cdc6a790dee6" alt="Product Page">
+  <img width="340" src="https://github.com/user-attachments/assets/8c665b64-363f-4c23-9383-b42437b4867d" alt="Cart">
+  <img width="340" src="https://github.com/user-attachments/assets/bc9c947c-9161-4b6b-89a7-e3b18ebb4349" alt="AI Concierge">
+  <img width="340" src="https://github.com/user-attachments/assets/57e1dd2a-6342-46e2-960b-18d3574da234" alt="Another View">
 </div>
+
 
 *(Scroll horizontally → or swipe on mobile to view all screenshots)*
 
