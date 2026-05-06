@@ -1,4 +1,4 @@
-# ChronoLux - Luxury Mechanical Watch Boutique ⌚
+# ChronoLux - Luxury Mechanical Watch Boutique 
 
 A premium watch e-commerce website built during the **Google Build with AI Workshop** by GeeksforGeeks using **Antigravity AI**.
 
@@ -24,7 +24,7 @@ ChronoLux is a luxury mechanical watch boutique with a sophisticated Dark Academ
 - Troubleshooting IAM permissions and billing issues
 - Creating premium UI/UX with Tailwind CSS
 
-
+This workshop gave me **$5 worth of Google Cloud credits** and valuable hands-on experience.
 ---
 ## Screenshots
 
@@ -37,4 +37,4 @@ ChronoLux is a luxury mechanical watch boutique with a sophisticated Dark Academ
 </div>
 
 ---
-This workshop gave me **$5 worth of Google Cloud credits** and valuable hands-on experience.
+
