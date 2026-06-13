@@ -2,7 +2,7 @@
 
 A premium watch e-commerce website built during the **Google Build with AI Workshop** by GeeksforGeeks using **Antigravity AI**.
 
-**Live Demo**: [https://chronolux-1094485645915.us-central1.run.app]
+**Live Demo**: [View demo](https://chronolux-1094485645915.us-central1.run.app)
 
 
 ## Project Overview
@@ -27,6 +27,42 @@ ChronoLux is a luxury mechanical watch boutique with a sophisticated Dark Academ
 This workshop gave me **$5 worth of Google Cloud credits** and valuable hands-on experience.
 ---
 ## Screenshots
+
+<p align="center">
+  <table width="100%">
+    <tr>
+      <td width="25%" align="center">
+        <details>
+          <summary> Fan Setup</summary>
+          <img src="https://github.com/user-attachments/assets/57e1dd2a-6342-46e2-960b-18d3574da234" alt="Workshop Setup" width="100%">
+        </details>
+      </td>
+      <td width="25%" align="center">
+        <details>
+          <summary>LED blink</summary>
+          <img src="https://github.com/user-attachments/assets/bc9c947c-9161-4b6b-89a7-e3b18ebb4349" alt="LCD Display" width="100%">
+        </details>
+      </td>
+      <td width="25%" align="center">
+        <details>
+          <summary>LED display</summary>
+          <img src="https://github.com/user-attachments/assets/8c665b64-363f-4c23-9383-b42437b4867d" alt="Sensor Setup" width="100%">
+        </details>
+      </td>
+      <td width="25%" align="center">
+        <details>
+          <summary>LED display</summary>
+          <img src="https://github.com/user-attachments/assets/907467ae-66da-4287-a8aa-cdc6a790dee6" alt="Cooling Fan Setup" width="100%">
+        </details>
+         <td width="25%" align="center">
+        <details>
+          <summary>LED display</summary>
+          <img src="https://github.com/user-attachments/assets/4f8efcfe-cabc-4e57-bac7-4bf8d13421f4" alt="Cooling Fan Setup" width="100%">
+        </details>
+      </td>
+    </tr>
+  </table>
+</p>
 
 <div style="display: flex; gap: 15px; overflow-x: auto; padding: 10px 0; scrollbar-width: thin; -webkit-overflow-scrolling: touch;">
   <img width="340" src="https://github.com/user-attachments/assets/4f8efcfe-cabc-4e57-bac7-4bf8d13421f4" alt="Homepage">
