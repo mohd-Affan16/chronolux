@@ -5,8 +5,6 @@ A premium watch e-commerce website built during the **Google Build with AI Works
 **Live Demo**: [View demo](https://chronolux-1094485645915.us-central1.run.app)
 
 ---
-
----
 ## Screenshots
 
 <p align="center">
