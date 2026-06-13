@@ -4,27 +4,8 @@ A premium watch e-commerce website built during the **Google Build with AI Works
 
 **Live Demo**: [View demo](https://chronolux-1094485645915.us-central1.run.app)
 
+---
 
-## Project Overview
-
-ChronoLux is a luxury mechanical watch boutique with a sophisticated Dark Academia aesthetic. Most of the code was generated using **Antigravity AI** (the AI coding assistant from the workshop), while I handled debugging, deployment, and final fixes.
-
-## Tech Stack
-
-- **Frontend**: HTML5, Vanilla JavaScript, Tailwind CSS (Glassmorphism + animations)
-- **Backend**: Node.js, Express.js
-- **AI Tool**: Antigravity AI
-- **Deployment**: Docker + Google Cloud Run
-
-## What I Learned
-
-- How to effectively collaborate with AI tools to build applications faster
-- Full-stack development flow (Frontend + Backend integration)
-- Google Cloud Run deployment and Docker basics
-- Troubleshooting IAM permissions and billing issues
-- Creating premium UI/UX with Tailwind CSS
-
-This workshop gave me **$5 worth of Google Cloud credits** and valuable hands-on experience.
 ---
 ## Screenshots
 
@@ -57,6 +38,29 @@ This workshop gave me **$5 worth of Google Cloud credits** and valuable hands-on
     </tr>
   </table>
 </p>
+
+---
+
+## Project Overview
+
+ChronoLux is a luxury mechanical watch boutique with a sophisticated Dark Academia aesthetic. Most of the code was generated using **Antigravity AI** (the AI coding assistant from the workshop), while I handled debugging, deployment, and final fixes.
+
+## Tech Stack
+
+- **Frontend**: HTML5, Vanilla JavaScript, Tailwind CSS (Glassmorphism + animations)
+- **Backend**: Node.js, Express.js
+- **AI Tool**: Antigravity AI
+- **Deployment**: Docker + Google Cloud Run
+
+## What I Learned
+
+- How to effectively collaborate with AI tools to build applications faster
+- Full-stack development flow (Frontend + Backend integration)
+- Google Cloud Run deployment and Docker basics
+- Troubleshooting IAM permissions and billing issues
+- Creating premium UI/UX with Tailwind CSS
+
+This workshop gave me **$5 worth of Google Cloud credits** and valuable hands-on experience.
 
 ---
 
